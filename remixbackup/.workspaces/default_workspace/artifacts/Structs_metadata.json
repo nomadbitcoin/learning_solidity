@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_PrimeiroNome",
+						"type": "string"
+					},
+					{
+						"name": "_SegundoNome",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "peopleCount",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"name": "_PrimeiroNome",
+						"type": "string"
+					},
+					{
+						"name": "_SegundoNome",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learning_dataTypes_Structs.sol": "Structs"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learning_dataTypes_Structs.sol": {
+			"keccak256": "0x0a2bdbfa94f13f42044f77c91182bd8f0db91931742b8bfe3bfee41ba52fd0aa",
+			"urls": [
+				"bzzr://69ca7007bbd8cca4126f8b6fb63aa52552f062586590a363aa62d10926b25f36"
+			]
+		}
+	},
+	"version": 1
+}

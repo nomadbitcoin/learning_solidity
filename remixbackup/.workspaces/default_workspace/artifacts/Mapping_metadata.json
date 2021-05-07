@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "contador",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"name": "_PrimeiroNome",
+						"type": "string"
+					},
+					{
+						"name": "_SegundoNome",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_PrimeiroNome",
+						"type": "string"
+					},
+					{
+						"name": "_SegundoNome",
+						"type": "string"
+					}
+				],
+				"name": "adicionaPessoa",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learning_only_timestamps.sol": "Mapping"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learning_only_timestamps.sol": {
+			"keccak256": "0x1690f8ce1418cd624387195c0ad29b4541845eeb3cf4573255410581892f971d",
+			"urls": [
+				"bzzr://ae6e0a1a8ef80cd972af9a0235e7dfab6faab845a143db496d6de3b1ca15ba33"
+			]
+		}
+	},
+	"version": 1
+}
